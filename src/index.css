@@ -8,17 +8,20 @@
 
 header {
 
-    justify-content: space-around;
-    align-items: flex-end;
+    display: flex;
+
 
     img {
         width: 4.5rem;
+
     }
 
     nav {
         a {
             padding: 1rem;
             font-weight: 200;
+            color: black;
+            border-bottom: 3rem;
         }
 
         padding: 1rem;

@@ -1,10 +1,10 @@
-import LogoDC from '../assets/img/dc-logo-bg.png'
+import LogoDC from '../assets/img/dc-logo.png'
 
 export default function Header() {
 
 
     return (
-        <header>
+        <header className='container'>
 
             <img src={LogoDC} alt="Logo DC Comics" className='logo-dc' />
 
