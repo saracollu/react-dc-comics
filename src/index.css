@@ -28,3 +28,36 @@ header {
     }
 
 }
+
+
+
+/*MAIN*/
+
+main {
+    display: flex;
+
+    nav {
+        background-color: rgb(48, 154, 253);
+        color: white;
+        padding: 1rem;
+
+        a {
+
+            text-decoration-color: none;
+            padding: 1rem;
+            font-weight: 200;
+            color: black;
+            border-bottom: 3rem;
+
+            img {
+                size: 1rem;
+            }
+
+        }
+
+
+
+
+
+    }
+}

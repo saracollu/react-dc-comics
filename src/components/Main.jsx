@@ -4,10 +4,8 @@ export default function Main() {
 
 
     return (
-        <main>
-            <div className="emptySpace">
+        <main className="container">
 
-            </div>
 
             <NavMain />
         </main>
