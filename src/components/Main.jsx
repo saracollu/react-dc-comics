@@ -1,9 +1,15 @@
+import NavMain from "./NavMain";
+
 export default function Main() {
 
 
     return (
         <main>
-            <p>superheroes</p>
+            <div className="emptySpace">
+
+            </div>
+
+            <NavMain />
         </main>
     )
 }
