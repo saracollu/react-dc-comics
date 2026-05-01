@@ -6,13 +6,42 @@ import Visa from "../assets/img/buy-dc-power-visa.svg";
 
 export default function Nav() {
 
+    const menuMain = [
+        {
+            id: 1,
+            text: "DIGITAL COMICS",
+            path: "/characters"
+        },
+        {
+            id: 2,
+            text: "DC MERCHANDISE",
+            path: "/comics"
+        },
+        {
+            id: 3,
+            text: "SUBSCRIPTION",
+            path: "/movies"
+        },
+        {
+            id: 4,
+            text: "COMIC SHOP LOCATOR",
+            path: "/tv"
+        },
+        {
+            id: 5,
+            text: "DC POWER VISA",
+            path: "/games"
+        },
+
+
+    ]
+
     return (
         <nav>
-            <a href=""><img src={DcDigitalC} alt="dc" />DIGITAL COMICS</a>
-            <a href=""><img src={Merch} alt="" />DC MERCHANDISE</a>
-            <a href=""><img src={Sub} alt="" />SUBSCRIPTION</a>
-            <a href=""><img src={Shop} alt="" />COMIC SHOP LOCATOR</a>
-            <a href=""><img src={Visa} alt="" />DC POWER VISA</a>
+            {menuMain.map((item) => (
+                <a href={item.path} key={item.id}>{item.text}</a>
+            ))}
         </nav>
-    )
+    );
 }
+
